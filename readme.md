@@ -1,7 +1,7 @@
 # Medicine Data Scraper with Proxy Rotation
 
 This project is a web scraper using Puppeteer, Cheerio, and Axios.  
-It scrapes product details (generic name, strength, brand, price) from [medex.com.bd] and updates them to an API. It includes proxy rotation, stealth browsing, randomized user agents, human-like scrolling, and auto-restart on Cloudflare blocks.
+It scrapes product details (generic name, strength, brand, price) from medex.com.bd and updates them to an API. It includes proxy rotation, stealth browsing, randomized user agents, human-like scrolling, and auto-restart on Cloudflare blocks.
 
 ## Features
 
@@ -28,7 +28,7 @@ npm install
 3. Run:
 
 ```bash
-node index.js
+node script.js
 ```
 
 ## Requirements
@@ -39,4 +39,4 @@ node index.js
 
 ## Notes
 
-Use responsibly and respect the site's terms. Proxy rotation is required to avoid Cloudflare blocking. This is only for educational purpose. Don't misuse.
+Use responsibly and respect the site's terms. Proxy rotation is required to avoid Cloudflare blocking. This is for educational purpose only. Don't misuse.
